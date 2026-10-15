@@ -17,13 +17,9 @@
 		323AFA673080DF58004F6759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA663080DF58004F6759 /* Assets.xcassets */; };
 		323AFA6E3080DF58004F6759 /* Better Canvas Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 323AFA6D3080DF58004F6759 /* Better Canvas Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		323AFA733080DF58004F6759 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AFA723080DF58004F6759 /* SafariWebExtensionHandler.swift */; };
-		323AFA893080DF58004F6759 /* CODE_OF_CONDUCT.md in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA7F3080DF58004F6759 /* CODE_OF_CONDUCT.md */; };
-		323AFA8A3080DF58004F6759 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA803080DF58004F6759 /* LICENSE */; };
 		323AFA8B3080DF58004F6759 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA813080DF58004F6759 /* css */; };
 		323AFA8C3080DF58004F6759 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA823080DF58004F6759 /* js */; };
 		323AFA8D3080DF58004F6759 /* html in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA833080DF58004F6759 /* html */; };
-		323AFA8E3080DF58004F6759 /* crowdin.yml in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA843080DF58004F6759 /* crowdin.yml */; };
-		323AFA8F3080DF58004F6759 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA853080DF58004F6759 /* README.md */; };
 		323AFA903080DF58004F6759 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA863080DF58004F6759 /* manifest.json */; };
 		323AFA913080DF58004F6759 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA873080DF58004F6759 /* _locales */; };
 		323AFA923080DF58004F6759 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = 323AFA883080DF58004F6759 /* icon */; };
@@ -65,16 +61,12 @@
 		323AFA6D3080DF58004F6759 /* Better Canvas Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better Canvas Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		323AFA723080DF58004F6759 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		323AFA743080DF58004F6759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		323AFA7F3080DF58004F6759 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CODE_OF_CONDUCT.md; path = ../../../bettercanvas/CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
-		323AFA803080DF58004F6759 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../bettercanvas/LICENSE; sourceTree = "<group>"; };
-		323AFA813080DF58004F6759 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../bettercanvas/css; sourceTree = "<group>"; };
-		323AFA823080DF58004F6759 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../../bettercanvas/js; sourceTree = "<group>"; };
-		323AFA833080DF58004F6759 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = ../../../bettercanvas/html; sourceTree = "<group>"; };
-		323AFA843080DF58004F6759 /* crowdin.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = crowdin.yml; path = ../../../bettercanvas/crowdin.yml; sourceTree = "<group>"; };
-		323AFA853080DF58004F6759 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../bettercanvas/README.md; sourceTree = "<group>"; };
-		323AFA863080DF58004F6759 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../bettercanvas/manifest.json; sourceTree = "<group>"; };
-		323AFA873080DF58004F6759 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../bettercanvas/_locales; sourceTree = "<group>"; };
-		323AFA883080DF58004F6759 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = ../../../bettercanvas/icon; sourceTree = "<group>"; };
+		323AFA813080DF58004F6759 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = css; sourceTree = "<group>"; };
+		323AFA823080DF58004F6759 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = js; sourceTree = "<group>"; };
+		323AFA833080DF58004F6759 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = html; sourceTree = "<group>"; };
+		323AFA863080DF58004F6759 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = manifest.json; sourceTree = "<group>"; };
+		323AFA873080DF58004F6759 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = _locales; sourceTree = "<group>"; };
+		323AFA883080DF58004F6759 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,19 +138,15 @@
 		323AFA7E3080DF58004F6759 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				323AFA7F3080DF58004F6759 /* CODE_OF_CONDUCT.md */,
-				323AFA803080DF58004F6759 /* LICENSE */,
 				323AFA813080DF58004F6759 /* css */,
 				323AFA823080DF58004F6759 /* js */,
 				323AFA833080DF58004F6759 /* html */,
-				323AFA843080DF58004F6759 /* crowdin.yml */,
-				323AFA853080DF58004F6759 /* README.md */,
 				323AFA863080DF58004F6759 /* manifest.json */,
 				323AFA873080DF58004F6759 /* _locales */,
 				323AFA883080DF58004F6759 /* icon */,
 			);
 			name = Resources;
-			path = "Better Canvas Extension";
+			path = "Better Canvas Extension/Resources";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -254,13 +242,9 @@
 				323AFA913080DF58004F6759 /* _locales in Resources */,
 				323AFA923080DF58004F6759 /* icon in Resources */,
 				323AFA8B3080DF58004F6759 /* css in Resources */,
-				323AFA8A3080DF58004F6759 /* LICENSE in Resources */,
-				323AFA893080DF58004F6759 /* CODE_OF_CONDUCT.md in Resources */,
-				323AFA8F3080DF58004F6759 /* README.md in Resources */,
 				323AFA903080DF58004F6759 /* manifest.json in Resources */,
 				323AFA8C3080DF58004F6759 /* js in Resources */,
 				323AFA8D3080DF58004F6759 /* html in Resources */,
-				323AFA8E3080DF58004F6759 /* crowdin.yml in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -362,7 +346,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -419,7 +403,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -444,7 +428,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -478,7 +462,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
